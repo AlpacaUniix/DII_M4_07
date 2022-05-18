@@ -66,6 +66,12 @@ for (let i = 0; i < employee.length; i++) {
 averageAge = averageAge / employee.length;
 console.log(averageAge);
 
-const newText = 'not ok';
+const newText = 'cancle';
 document.getElementById('ok').innerHTML = newText;
 document.getElementById('ok').innerHTML = newText;
+
+function alert1() {
+    alert('not ok');
+}
+let ok = document.getElementById('ok');
+ok.addEventListener('click', alert1);
